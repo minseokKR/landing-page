@@ -1,0 +1,108 @@
+/* 
+.main_container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 206, 51, 0.933);
+} */
+
+.apps {
+    width: 100%;
+    height: 300px;
+    /* background-color: rgb(104, 179, 228); */
+    background: linear-gradient(to bottom, #75c3e8, #ff99cc);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.apps h4 {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.apps p {
+    margin-left: 60px;
+
+}
+.apps_btn {
+    text-align: center;
+    width: 100px;
+    padding: 7px;
+    background-color: rgb(61, 59, 59);
+    color: white;
+    border-radius: 5px;
+    margin-left: 60px;
+
+}
+.apps img {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    margin-left: 450px;
+    margin-top: 82px;
+}
+
+
+
+
+
+.portfolio {
+    width: 100%;
+    height: 175px;
+    text-align: center;
+    margin-top: 50px;
+}
+.portfolio h4 {
+
+}
+.portfolio p {
+    font-size: 10px;
+}
+.portfolio button {
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(61, 59, 59);
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+.offer_main_container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #ff99cc;
+}
+.offer_title {
+    color: white;
+    text-align: center;
+    margin-left: 2op
+}
+.offer_sub_container {
+    display: flex;
+    background-color: aqua;
+    width: 70%;
+    height: 50px;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+
+}
+.offer_sub_container i {
+}
+
+
+
+
+
+
+.do {
+
+}
+
+.social {
+
+}
+
