@@ -1,15 +1,14 @@
-/* 
+
 .main_container{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(66, 206, 51, 0.933);
-} */
+    display: flex;
+    flex-direction: column;
+}
 
 .apps {
     width: 100%;
     height: 300px;
     /* background-color: rgb(104, 179, 228); */
-    background: linear-gradient(to bottom, #75c3e8, #ff99cc);
+    background: linear-gradient(to bottom, #4fb8e8, #f976de);
     color: white;
     display: flex;
     flex-direction: column;
@@ -42,16 +41,10 @@
 
 
 
-
-
 .portfolio {
     width: 100%;
-    height: 175px;
+    height: 150px;
     text-align: center;
-    margin-top: 50px;
-}
-.portfolio h4 {
-
 }
 .portfolio p {
     font-size: 10px;
@@ -67,42 +60,84 @@
 
 
 
-
-
 .offer_main_container {
-    display: flex;
     width: 100%;
-    height: 300px;
-    background-color: #ff99cc;
+    height: 250px;
+    background: linear-gradient(to bottom, #f976de, #9c89ee);    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .offer_title {
     color: white;
     text-align: center;
-    margin-left: 2op
+}
+.offer_sub_main_container {
+    display: flex;
+    margin-top: -15px;
 }
 .offer_sub_container {
-    display: flex;
-    background-color: aqua;
+    margin-right: 20px;
+    margin-left: 20px;
     width: 70%;
     height: 50px;
-    flex-direction: column;
     text-align: center;
-    margin: auto;
-
+}
+.offer_sub_container h4{
+    margin-top: 0px;
+    color: white;
+}
+.offer_sub_container p {
+    margin-top: -15px;
+    font-size: 5px;
+    color: white;
 }
 .offer_sub_container i {
+    font-size: 25px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
 }
-
-
-
 
 
 
 .do {
-
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
 }
+.do_title {
+    text-align: center;
+}
+.do_menu_row{
+    display: flex;
+}
+.do_menu_row img {
+    width: 50%;
+}
+
 
 .social {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+}
+.social_container {
+    width: 33%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+.social_container i {
+    background-color: #9c89ee;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
 
