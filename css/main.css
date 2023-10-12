@@ -19,7 +19,6 @@
 }
 .apps p {
     margin-left: 60px;
-
 }
 .apps_btn {
     text-align: center;
@@ -29,14 +28,12 @@
     color: white;
     border-radius: 5px;
     margin-left: 60px;
-
 }
 .apps img {
-    position: absolute;
     width: 200px;
     height: auto;
-    margin-left: 450px;
-    margin-top: 82px;
+    margin-left: auto;
+    margin-top: -75px;
 }
 
 
@@ -103,12 +100,15 @@
 
 .do {
     width: 100%;
-    height: 650px;
-    display: flex;
-    flex-direction: column;
+    height: 400px;
 }
 .do_title {
     text-align: center;
+}
+.do_container {
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .do_menu_row{
     display: flex;
@@ -119,9 +119,8 @@
 
 
 .social {
-    display: inline-block;
     width: 100%;
-    height: 200px;
+    height: 100px;
 }
 .social_container {
     width: 33%;
@@ -130,14 +129,38 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .social_container i {
     background-color: #9c89ee;
     border-radius: 25px;
     font-size: 25px;
     padding: 10px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-
+@media screen and (max-width: 576px) {
+    .apps {
+        height: 350px;
+    }
+    .apps h4 {
+        margin-left: 0px;
+        text-align: center;
+        margin-bottom: -2px;
+    }
+    .apps p {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 8px;
+    }
+    .apps_btn {
+        margin: auto;
+        margin-top: 10px;
+    }
+    .apps img {
+        width: 150px;
+        height: auto;
+        margin: auto;
+        margin-top: 25px;
+    }
+}
