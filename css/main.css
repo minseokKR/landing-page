@@ -29,6 +29,10 @@
     border-radius: 5px;
     margin-left: 60px;
 }
+.apps_btn:hover {
+    background-color: white;
+    color: black;
+}
 .apps img {
     width: 200px;
     height: auto;
@@ -53,6 +57,10 @@
     background-color: rgb(61, 59, 59);
     color: white;
     border-radius: 5px;
+}
+.portfolio button:hover {
+    background-color: white;
+    color: black;
 }
 
 
