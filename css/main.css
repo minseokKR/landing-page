@@ -158,15 +158,17 @@
     width: 100%;
 }
 .white-box {
+    box-sizing: border-box;
+
     position: absolute;
     width: 100%;
     height: 100%;
-    border : 0px solid rgb(196, 16, 16);
+    border : 0px solid rgb(255, 255, 255);
     transition: border 0.5s;
 
 }
 .white-box:hover {
-    border: 40px solid rgb(223, 0, 0);
+    border: 40px solid rgb(255, 255, 255);
 }
 /* .do_title {
     text-align: center;
