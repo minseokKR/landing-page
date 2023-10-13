@@ -109,10 +109,66 @@
 
 
 .do {
-    width: 100%;
-    height: 400px;
+    /* width: 100%;
+    height: 400px; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
 }
-.do_title {
+.do-container {
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+}
+.do-item1 {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/img/portfolio-1.jpg);
+    background-size: cover;
+}
+.do-item2 {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),  url(/img/portfolio-2.jpg);
+    background-size: cover;
+}
+.do-item3 {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),  url(/img/portfolio-3.jpg);
+    background-size: cover;
+}
+.do-item4 {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),  url(/img/portfolio-4.jpg);
+    background-size: cover;
+}
+.do-text {
+    color: white;
+    padding: 50px;
+    width: 100%;
+}
+.white-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border : 0px solid rgb(196, 16, 16);
+    transition: border 0.5s;
+
+}
+.white-box:hover {
+    border: 40px solid rgb(223, 0, 0);
+}
+/* .do_title {
     text-align: center;
 }
 .do_container {
@@ -158,7 +214,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-}
+} */
 
 
 .social {
